@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        h1 {
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h2 {
+          color: white;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        html {
+            background-color: black;
+        }
+        button {
+            background-color: blue;
+            border: none;
+            color: white;
+            text-align: center;
+            font-size: 16px;
+            padding: 20px 30px;
+            
+        }
+        th {
+          color: white;
+        }
+
+        td {
+          color: white;
+        }
+    </style>
+    <head>
+        <title>About The Toronto Maple Leafs</title>
+    </head>
+    <body>
+        <h1 style="position: absolute; top:50px; left:700px;">About The Toronto Maple Leafs</h1>
+            <a>
+                <img src="https://i.bleacherreport.net/images/team_logos/328x328/toronto_maple_leafs.png?canvas=492,328" width="200px" height="110px" style="position: absolute; top: 25px; left: 1700px;">
+                <img src="https://cdn.vox-cdn.com/thumbor/17RjIN4EV7wboCBTlvizDKlJMZ8=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22700022/1326134979.jpg" width="800px" height="600px" style="position: absolute; top:200px; left:530px;" #borders >
+                <h1 style="position: absolute; left: 850px; top: 800px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Statistics</h1>
+                <TABLE style="position: absolute; left: 720px; top: 950px; font-size: large; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif" border="1">
+                  <THEAD>
+                   <TR>
+                     <TH>Goals per Game</TH>
+                     <TH>Win/Loss %</TH>
+                     <TH>Pts per Game</TH>
+                     </TR>
+                  </THEAD>
+                  <TBODY>
+              
+                   <TR>
+                     <TD>3.79/game</TD>
+                     <TD>72%, 54w, 21loss</TD>
+                     <TD>115pts, 82 games</TD>
+                   </TR>
+                  </TBODY>
+               </TABLE>
+
+               <iframe style="position: absolute; top: 1100px; left: 300px;" width="1280" height="704" src="https://www.youtube.com/embed/CKNdHuayY68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </a>
+            <html>
+                <head>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <style>
+                .dropbtn {
+                  background-color: #00205B;
+                  color: white;
+                  padding: 16px;
+                  font-size: 16px;
+                  border: none;
+                  cursor: pointer;
+                }
+                
+                .dropbtn:hover, .dropbtn:focus {
+                  background-color: #2980B9;
+                }
+                
+                .dropdown {
+                  position: relative;
+                  display: inline-block;
+                }
+                
+                .dropdown-content {
+                  display: none;
+                  position: absolute;
+                  background-color: #f1f1f1;
+                  min-width: 160px;
+                  overflow: auto;
+                  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                  z-index: 1;
+                }
+                
+                .dropdown-content a {
+                  color: black;
+                  padding: 12px 16px;
+                  text-decoration: none;
+                  display: block;
+                }
+                
+                .dropdown a:hover {background-color: #ddd;}
+                
+                .show {display: block;}
+                </style>
+                </head>
+                <body>
+                
+                <h2></h2>
+                <p></p>
+                
+                <div class="dropdown" style="position: absolute; top: 50px; left: 50px;">
+                  <button onclick="myFunction()" class="dropbtn">More</button>
+                  <div id="myDropdown" class="dropdown-content">
+                    <a href="https://www.quanthockey.com/nhl/team-rosters/toronto-maple-leafs-2021-22-nhl-roster.html">Roster</a>
+                    <a href="https://www.nhl.com/player/auston-matthews-8479318">Star Player</a>
+                    <a href="https://www.google.com/search?q=toronto+maple+leafs+past+matches&rlz=1C1CHBF_enCA991CA991&ei=CZOHYs3WN8eO9PwP7pmBuAI&ved=0ahUKEwiN_4ebk-73AhVHB50JHe5MACcQ4dUDCA4&uact=5&oq=toronto+maple+leafs+past+matches&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEB4QFjIGCAAQHhAWMgYIABAeEBYyBggAEB4QFjIGCAAQHhAWMgYIABAeEBY6BwgAEEcQsAM6CAgAEIAEELEDOgsIABCABBCxAxCDAToFCAAQgAQ6BQghEKABOggIIRAeEBYQHToHCCEQChCgAToKCCEQHhAWEAoQHUoECEEYAEoECEYYAFC7CFiEGGCkGWgBcAB4AIABfYgBqwmSAQM2LjaYAQCgAQHIAQjAAQE&sclient=gws-wiz#sie=t;/m/0j6tr;7;/m/05gwr;mt;fp;1;;">Past Matches</a>
+                  </div>
+                </div>
+                
+                <script>
+                /* When the user clicks on the button, 
+                toggle between hiding and showing the dropdown content */
+                function myFunction() {
+                  document.getElementById("myDropdown").classList.toggle("show");
+                }
+                
+                // Close the dropdown if the user clicks outside of it
+                window.onclick = function(event) {
+                  if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                      var openDropdown = dropdowns[i];
+                      if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                      }
+                    }
+                  }
+                }
+                </script>
+               
+                </body>
+                </html>
+    </body>
+</html>
